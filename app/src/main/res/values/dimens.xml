@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="address">24sp</dimen>
+    <dimen name="phonenumber">24sp</dimen>
+    <dimen name="web">24sp</dimen>
+    <dimen name="image">8dp</dimen>
+
+
+
+    <dimen name="margin">16dp</dimen>
+    <dimen name="websize">24sp</dimen>
+    <dimen name="paddingbottom">8dp</dimen>
+</resources>

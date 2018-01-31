@@ -1,0 +1,71 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/whatisnext" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/adress"
+        android:textColorLink="#000000"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/address"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/phnumber"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="#000000"
+        android:textSize="@dimen/phonenumber"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/webaddress"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="#000000"
+        android:textSize="@dimen/web"
+        android:drawableLeft="@drawable/ic_computer_black_24dp"/>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:paddingBottom="@dimen/image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/udacity" />
+
+
+</LinearLayout>
+
+
+
+
