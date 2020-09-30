@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Hello Android</string>
-    <string name="contact">Udacity   2465 Latham St Mountain View, CA 94043 650-555-5555 www.udacity.com</string>
-    <string name="adress">Udacity\n2465 Latham St Mountain View, CA 94043 </string>
-    <string name="phnumber">650-555-5555</string>
+    <string name="contact">Udacity   2465 Latham St Mountain View, CA 94043 650–555–5555 www.udacity.com</string>
+    <string name="adress">2465 Latham St Mountain View, CA 94043 </string>
+    <string name="phnumber">650–555–5555</string>
     <string name="webaddress">www.udacity.com</string>
+    <string name="udacity_name">Udacity</string>
+    <string name="inspirational_image">inspirational image</string>
+    <string name="udacity_icon">udacity icon</string>
 </resources>
