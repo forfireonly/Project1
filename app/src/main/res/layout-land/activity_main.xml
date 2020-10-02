@@ -13,20 +13,29 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/whatisnext" />
+        android:src="@drawable/whatisnext"
+        android:contentDescription="@string/inspirational_image" />
+
+    <TextView
+        android:id="@+id/udacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/udacity_name"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/address"
+        />
 
     <TextView
         android:id="@+id/ad"
+        android:layout_below="@id/udacity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="map"
-        android:fontFamily="sans-serif-light"
         android:text="@string/adress"
-        android:textColorLink="#000000"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="#FFFFFF"
         android:textSize="@dimen/address"
-        android:drawableLeft="@drawable/ic_location_on_black_24dp"
-        />
+        android:drawableLeft="@drawable/white_location"
+        android:drawableStart="@drawable/white_location" />
 
 
     <TextView
@@ -35,12 +44,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="phone"
-        android:fontFamily="sans-serif-light"
         android:text="@string/phnumber"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorLink="#000000"
+        android:textColorLink="#FFFFFF"
         android:textSize="@dimen/phonenumber"
-        android:drawableLeft="@drawable/ic_phone_black_24dp"/>
+        android:drawableLeft="@drawable/white_phone"
+        android:drawableStart="@drawable/white_phone" />
 
     <TextView
 
@@ -49,13 +57,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="web"
-        android:fontFamily="sans-serif-light"
         android:text="@string/webaddress"
-        android:textColor="@color/colorPrimaryDark"
-        android:textColorLink="#000000"
+        android:textColorLink="#FFFFFF"
         android:layout_marginLeft="@dimen/margin"
         android:textSize="@dimen/websize"
-        android:drawableLeft="@drawable/ic_computer_black_24dp"/>
+        android:drawableLeft="@drawable/computer_24"
+        android:layout_marginStart="@dimen/margin"
+        android:drawableStart="@drawable/computer_24"
+        android:layout_toEndOf="@+id/phnum" />
 
 
 
@@ -67,7 +76,8 @@
         android:adjustViewBounds="true"
         android:paddingBottom="@dimen/paddingbottom"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/udacitysmall" />
+        android:src="@drawable/udacitysmall"
+        android:contentDescription="@string/udacity_icon" />
 
 
 </RelativeLayout>

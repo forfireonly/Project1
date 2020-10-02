@@ -7,7 +7,7 @@
 
 
 
-    <dimen name="margin">16dp</dimen>
+    <dimen name="margin">24dp</dimen>
     <dimen name="websize">24sp</dimen>
     <dimen name="paddingbottom">8dp</dimen>
 </resources>
